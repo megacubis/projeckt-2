@@ -1,0 +1,196 @@
+body {
+    width: 100%;
+    display: block;
+}
+
+.nav {
+    padding: 25px 40px 5px;
+}
+
+.nav-left-box {
+    float: left;
+    margin-right: 50px;
+}
+
+.logo {
+    width: 80px;    
+}
+
+.nav-centre-box { 
+   margin: 5px;
+   float: left;
+}
+
+.nav-right-box { 
+   float: right;
+    font-size: 17px; 
+    
+}
+
+.site {
+    display:inline-block;
+    margin-left: 20px;   
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color:#20303c;
+}
+
+
+.main-menu a:hover {
+    background: #f5f5f5;
+}
+
+.main-menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.main-menu .sub-menu {
+    height: 50px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+}
+
+.items {
+    color: #20303c;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.items1 {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.hided-menu-trigger .hided-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.hided-menu-trigger:hover .hided-menu {
+    display: block;
+    top: 45px;
+}
+
+.profile {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile > .profile-menu-trigger {
+    position: relative;
+    display: inline-block;
+}
+
+.profile .items1 {
+    display: block; 
+    padding: 8px 10px;
+    color:#20303c;
+}
+
+.profile .profile-menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.profile-menu-trigger:hover .profile-menu{
+    display: block;
+    top: 45px;
+}
+
+.profile-menu-trigger .profile-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.box {
+    border: 1px solid #e5e5e5;
+    padding: 1px;
+}
+
+.line {
+    display: block;
+    margin-top: 40px;
+}
+
+input {
+    padding-left: 40px; 
+    font-size: 25px;
+    border:none;
+    border-bottom: 1px solid #4eb7f5;
+    outline: none;
+}
+
+.items2 {
+    text-decoration: none;
+    color: #20303c;
+    font-size: 17px;
+}
+
+h1{
+    color: #43515c;
+}
+
+.box2 {
+    list-style-type: none;
+}
+
+.nav-box {
+    padding-left: 40px;
+}
+
+.caption {
+    padding-left: 40px;
+}
+.items3 {
+    text-decoration: none;
+    color: #20303c;
+    font-size: 17px;
+}
+.hided-menu-trigger2:hover .hided-menu2 {
+    display:block;
+
+}
+.hided-menu-trigger2 .hided-menu2 {
+    display: none;
+}
+.hided2 {
+    padding-left: 0px; 
+
+}
+.section1 {
+    float: left;
+}
+.gallery {
+    width: 250px;
+   
+}
+.tg-template {
+    display:inline-block;
+}
+.tg-template-name {
+    display: block;
+    position: absolute;
+    left: 45%;
+    
+    
+}
